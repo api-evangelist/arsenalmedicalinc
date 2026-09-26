@@ -1,7 +1,6 @@
 aid: arsenalmedicalinc
 name: Arsenalmedicalinc
-description: 'Arsenalmedicalinc is a company surfaced via the API Evangelist harvest backlog (source:
-  secondary-market) and added to the network as a stub for full-pipeline profiling.'
+description: 'Arsenal Medical is a clinical‑stage biotech company developing innovative biomaterials such as NeoCast™ and ResQFoam® to address unmet medical needs in neurovascular and trauma care. Founded by serial entrepreneur‑investor Carmichael Roberts and scientists Robert Langer and George Whitesides, the firm transforms medical devices with advanced materials, securing funding from DARPA, NIH and the Department of Defense.'
 url: https://raw.githubusercontent.com/api-evangelist/arsenalmedicalinc/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -12,6 +11,10 @@ created: '2026-09-26'
 modified: '2026-09-26'
 tags:
 - Company
+- Biotech
+- Medical Devices
+- Biomaterials
+- Neurovascular
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +22,7 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/arsenalmedicalinc-domain-security.yml
 - type: Website
-  url: https://equityzen.com/company/arsenalmedicalinc
+  url: https://arsenalmedical.com
